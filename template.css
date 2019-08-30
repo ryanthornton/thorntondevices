@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{ 
+	background-color: #3498DB;
+	font-family: "Trebuchet MS";
+	text-align: center;
+}
+section{
+	margin: auto;
+	padding: 25px;
+	height: 100%;
+	width: 70%;
+	color: #3498DB;
+	background-color: white;
+}
+section h1{
+	
+}
+section p{
+	
+}
+section ul{
+
+	margin: auto;
+	width: 50%;
+	text-align: left;
+}
+h1{
+	color: white;
+	padding: 20px;
+}
+section a:link {
+	color: #454CE1;
+	text-decoration: none;
+}
+
+section a:visited {
+	color: #1018B1;
+	text-decoration: none;
+}
+
+section a:hover {
+	color: #454CE1;
+	text-decoration: underline;
+}
+
+section a:active {
+	color: #1018B1;
+	text-decoration: underline;
+}
