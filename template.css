@@ -1,53 +1,143 @@
 @charset "utf-8";
 /* CSS Document */
+html{
+    height:100vh;
+}
 body{ 
-	background-color: #3498DB;
+	background-color: #EAEDEF;
 	font-family: "Trebuchet MS";
 	text-align: center;
+    height:100vh;
 }
 section{
-	margin: auto;
-	padding: 25px;
+	padding: 5px;
+	/*display: inline-block;
+	width: auto;
 	height: 80%;
-	width: 70%;
-	color: #526572;
+	min-height: 400px;*/
+	background-color: #3499DB;
+	color: white;
+	text-align: left;
+	/*vertical-align: top;*/
+}
+.container-fluid{
+    height:90vh;
+}
+div1{
+	padding: 5px;
+	/*display: inline-block;*/
+	/*width: 32%;*/
+	/*height: 80%;*/
+	/*min-height: 400px;*/
+	background-color: #3499DB;
+	color: white;
+	text-align: left;
+	/*vertical-align: top;*/
+}
+div1 h2{
+	color: #BEC8CE;
+	/*display: inline-block;*/
+}
+div1 h5{
+	color: #BEC8CE;
+	text-align: center;
+	/*display: inline-block;*/
+	font-size: 10px;
+}
+/*div1:hover{
+	font-size: 102%;
+}*/
+div2{
+	padding: 5px;
+	/*display: inline-block;*/
+	/*width: 32%;
+	height: 80%;*/
+	/*min-height: 400px;*/
 	background-color: white;
+	color: #3499DB;
+	text-align: left;
+	/*vertical-align: top;*/
+}/*div2:hover{
+	font-size: 102%;
+}*/
+nav{
+	padding: 5px;
+	/*display: inline-block;
+	width: auto;
+	height: 80%;*/
+	/*min-height: 400px;*/
+	background-color: white;
+	color: #3499DB;
+	text-align: left;
+	/*vertical-align: top;*/
 }
 footer{
-	margin: auto;
-	padding: 25px;
-	width: 70%;
+	padding: 5px;
 	color: #526572;
-	font-size: 90%;
-	background-color: white;
+	font-size: 85%;
 	text-align: right;
 }
-section ul{
-
-	margin: auto;
-	width: 50%;
-	text-align: left;
-}
 h1{
-	color: white;
-	padding: 20px;
+	color: #3499DB;
+	padding: 10px;
+	/*margin-left: 90px;*/
+	/*display: inline-block;
+	vertical-align: top;*/
 }
-section a:link {
-	color: #3498DB;
+.fit-image{
+width: 100%;
+object-fit: cover;
+}
+.lightgreen{
+    padding: 10px;
+    margin: 10px;
+    background-color: #BBEEA6;
+}
+.lightyellow{
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFFFB2;
+}
+.lightblue{
+    padding: 10px;
+    margin: 10px;
+    background-color: #97BAD3;
+}
+div1 a:link {
+	color: #BEC8CE;
 	text-decoration: none;
 }
 
-section a:visited {
+div1 a:visited {
+	color: #93A7B4;
+	text-decoration: none;
+}
+
+div1 a:hover {
+	color: #BEC8CE;
+	text-decoration: underline;
+}
+
+div1 a:active {
+	color: #93A7B4;
+	text-decoration: underline;
+}
+a:link {
+	color: #1282CB;
+	text-decoration: none;
+}
+
+a:visited {
 	color: #0665A2;
 	text-decoration: none;
 }
 
-section a:hover {
-	color: #3498DB;
+a:hover {
+	color: #1282CB;
 	text-decoration: underline;
 }
 
-section a:active {
+a:active {
 	color: #0665A2;
 	text-decoration: underline;
 }
