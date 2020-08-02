@@ -5,9 +5,10 @@ html{
 }
 body{ 
 	background-color: #EAEDEF;
-	font-family: "Trebuchet MS";
+	font-family: Sans-Serif;
 	text-align: center;
     height:100vh;
+    font-size: 20px;
 }
 section{
 	padding: 5px;
@@ -20,10 +21,22 @@ section{
 	text-align: left;
 	/*vertical-align: top;*/
 }
+h3{
+    text-align: center;
+}
 .container-fluid{
     height:90vh;
 }
-div1{
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.box{
+    padding: 5px;
+    /*background-color: grey;*/
+    align-items: center;
+}
+.div1{
 	padding: 5px;
 	/*display: inline-block;*/
 	/*width: 32%;*/
@@ -34,11 +47,11 @@ div1{
 	text-align: left;
 	/*vertical-align: top;*/
 }
-div1 h2{
+.div1 h2{
 	color: #BEC8CE;
 	/*display: inline-block;*/
 }
-div1 h5{
+.div1 h5{
 	color: #BEC8CE;
 	text-align: center;
 	/*display: inline-block;*/
@@ -47,14 +60,14 @@ div1 h5{
 /*div1:hover{
 	font-size: 102%;
 }*/
-div2{
+.div2{
 	padding: 5px;
 	/*display: inline-block;*/
 	/*width: 32%;
 	height: 80%;*/
 	/*min-height: 400px;*/
 	background-color: white;
-	color: #3499DB;
+	color: black;
 	text-align: left;
 	/*vertical-align: top;*/
 }/*div2:hover{
@@ -78,7 +91,7 @@ footer{
 	text-align: right;
 }
 h1{
-	color: #3499DB;
+	color: black;
 	padding: 10px;
 	/*margin-left: 90px;*/
 	/*display: inline-block;
@@ -90,35 +103,38 @@ object-fit: cover;
 }
 .lightgreen{
     padding: 10px;
-    margin: 10px;
-    background-color: #BBEEA6;
+    height: 100%;
+    background-color: #8DC63F;
+    color: white;
 }
 .lightyellow{
     padding: 10px;
-    margin: 10px;
-    background-color: #FFFFB2;
+    height: 100%;
+    background-color: #FFBA18;
+    color: #103871;
 }
 .lightblue{
     padding: 10px;
-    margin: 10px;
-    background-color: #97BAD3;
+    height: 100%;
+    background-color: #0C4E97;
+    color: white;
 }
-div1 a:link {
+.div1 a:link {
 	color: #BEC8CE;
 	text-decoration: none;
 }
 
-div1 a:visited {
+.div1 a:visited {
 	color: #93A7B4;
 	text-decoration: none;
 }
 
-div1 a:hover {
+.div1 a:hover {
 	color: #BEC8CE;
 	text-decoration: underline;
 }
 
-div1 a:active {
+.div1 a:active {
 	color: #93A7B4;
 	text-decoration: underline;
 }
